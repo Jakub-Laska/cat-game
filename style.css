@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+/* 
+colors
+#223843
+#F5E2C8
+#6C8EAD
+#A05C7B
+#F5E2C8
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6C8EAD; 
+    color: #F5E2C8;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .07em;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+.cardA {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: .2em;
+    background: url(img/card.jpg) center no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    border: 4px solid #ebbe7eb6;
+    border-radius: 1.5em;
+    box-shadow: 8px 8px 16px #7f5ca0;
+    cursor: default;
+    filter: brightness(100%);
+    transition: all .2s ease-in-out;
+}
+.card {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: .2em;
+    background: #a05c7baf url(img/card.jpg) center no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+    border: 4px solid #f5e2c8;
+    border-radius: 1.5em;
+    box-shadow: 8px 8px 16px #7f5ca0;
+    cursor: pointer;
+    filter: brightness(80%);
+    transition: all .2s ease-in-out;
+}
+.card:hover {
+    background: #0000007a url(img/card.jpg) center no-repeat;
+    background-size: cover;
+    box-shadow: 8px 8px 16px #1a25b96e;
+    margin-bottom: 2px;
+}
+.score {
+    margin: 1.5em 0;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 0px  #223843;
+    
+}
+#title {
+    font-size: 4rem;
+    text-shadow: 3px 5px 0px  #223843;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+}
+#by-who {
+    font-size: .6rem;
+    font-weight: 600;
+    text-shadow: .5px .5px 0px  #223843;
+}
+#zuzik,
+#kuba {
+    color: #223843;
+    text-shadow: none;
+    font-weight: 900;
+}
+#zuzik:hover,
+#kuba:hover {
+    color: #A05C7B;
+}
+#learn {
+    font-size: .6rem;
+    font-weight: 400;
+}
