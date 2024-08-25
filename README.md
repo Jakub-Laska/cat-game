@@ -1,5 +1,5 @@
 Cat Memory Game: Maniek Edition by Jakub Laska.
-Welcome to the Cat Memory Game: Maniek Edition! This interactive memory game features my rescued cat, Maniek, and provides an engaging way to match pairs of cards showcasing his adorable photos. The game includes sound effects, a round counter, a win screen, and adjustable difficulty levels.
+Welcome to the Cat Memory Game: Maniek Edition! This interactive memory game features my rescued cat, Maniek, and provides an engaging way to match pairs of cards showcasing his adorable photos. The game includes sound effects, a round counter and a win screen.
 
 Project Overview
 Cat Memory Game: Maniek Edition is a frontend web application designed with JavaScript, jQuery, and CSS. The game challenges players to flip and match pairs of cards that feature different images of Maniek. It combines enjoyable gameplay with a personal touch, celebrating Maniek’s journey from the street to a loving home.
