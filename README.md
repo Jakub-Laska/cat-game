@@ -19,3 +19,16 @@ CSS: Styling the game to ensure it is visually appealing and responsive across d
 Audio Integration: Implementing sound effects to enhance the gameplay experience.
 Round Counter Implementation: Adding a round counter to track and display how many rounds were played to complete the game.
 
+
+**[Try It!](https://jakub-laska.github.io/cat-game/)**
+<!-- 
+_______/\\\\\\\_______/\\\_____________        
+ ______\/////\\\______\/\\\_____________       
+  __________\/\\\______\/\\\_____________      
+   __________\/\\\______\/\\\_____________     
+    __________\/\\\______\/\\\_____________    
+     __________\/\\\______\/\\\_____________   
+      ___/\\\___\/\\\______\/\\\_____________  
+       __\//\\\\\\\\\_______\/\\\\\\\\\\\\\___ 
+        ___\/////////________\/////////////____ 
+-->
